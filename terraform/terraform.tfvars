@@ -1,5 +1,5 @@
-docker_image       = "cybervamp/basic_flask_app:latest"
-ssh_username       = "ubuntu"
-private_key_path   = "D:\\Backup\\SAMPLE_AWS_KEY_ADMIN.pem"  # Path to your .pem file
-os_ami_id         = "ami-04a81a99f5ec58529"  # Update to the AMI ID for your region
-instance_type      = "t2.micro"
+docker_image     = "your-dockerhub-username/basic_flask_app:latest"
+ssh_username     = "ec2-user"
+private_key_path = "path_to_pem_file"  # Update to the path of your .pem key file
+aws_ami_id       = "ami_id"  # Update to the AMI ID for your region
+instance_type    = "t2.micro"
